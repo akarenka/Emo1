@@ -1,0 +1,10 @@
+EmoStream R2 Hub v2.1 deployment check
+
+1. Upload the index.html from this package to the actual website root.
+2. Replace the old index.html; do not upload the ZIP itself as a web page.
+3. If using GitHub Pages, commit index.html to the branch/folder selected in Settings > Pages.
+4. If using Cloudflare Pages, create a new deployment containing this index.html.
+5. After deployment, the header must show: DELETE UPDATE v2.1
+6. The playlist card must show Delete Playlist and every row must show Remove.
+
+Deleting website media records does NOT delete the original Cloudflare R2 or Firebase Storage file.
